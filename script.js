@@ -9,30 +9,28 @@ let languageId;
 let enchants_list;
 
 const languages = {
-    'en'    : 'English',
-
-    // in alphabetical order
-    'de'    : 'Deutsch',
-    'es-ES' : 'Español',
-    'fr-FR' : 'Français',
-    'it-IT' : 'Italiano',
-    'id'    : 'Indonesia',
-    'hu-HU' : 'Magyar',
-    'nl'    : 'Nederlands',
-    'pl-PL' : 'Polski',
-    'pt-BR' : 'Português',
-    'de-CH' : 'Schwiizerdütsch',
-    'vi-VN' : 'Tiếng Việt',
-    'tr-TR' : 'Türkçe',
-    'be-BY' : 'Беларуская',
-    'ru-RU' : 'Русский',
-    'ua-UA' : 'Українська',
-    'th-TH' : 'ภาษาไทย',
-    'zh-CN' : '简体中文',
-    'zh-TW' : '繁體中文',
-    'ja-JP' : '日本語',
-    'ko-KR' : '한국어',
-    'ar'    : 'اَلْعَرَبِيَّةُ',
+    'en': '🇬🇧 English',
+    'de': '🇩🇪 Deutsch',
+    'es-ES': '🇪🇸 Español',
+    'fr-FR': '🇫🇷 Français',
+    'it-IT': '🇮🇹 Italiano',
+    'id': '🇮🇩 Indonesia',
+    'hu-HU': '🇭🇺 Magyar',
+    'nl': '🇳🇱 Nederlands',
+    'pl-PL': '🇵🇱 Polski',
+    'pt-BR': '🇧🇷 Português',
+    'de-CH': '🇨🇭 Schwiizerdütsch',
+    'vi-VN': '🇻🇳 Tiếng Việt',
+    'tr-TR': '🇹🇷 Türkçe',
+    'be-BY': '🇧🇾 Беларуская',
+    'ru-RU': '🇷🇺 Русский',
+    'ua-UA': '🇺🇦 Українська',
+    'th-TH': '🇹🇭 ภาษาไทย',
+    'zh-CN': '🇨🇳 简体中文',
+    'zh-TW': '🇹🇼 繁體中文',
+    'ja-JP': '🇯🇵 日本語',
+    'ko-KR': '🇰🇷 한국어',
+    'ar': '🇸🇦 اَلْعَرَبِيَّةُ'
 };
 
 const languages_cache_key = 6;
